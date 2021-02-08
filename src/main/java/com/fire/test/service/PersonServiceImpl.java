@@ -5,7 +5,6 @@ import com.fire.test.domain.entity.Person;
 import com.fire.test.domain.mapper.PersonMapper;
 import com.fire.test.repository.PersonRepository;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.RequestMapping;
 
 import java.util.List;
 import java.util.Optional;

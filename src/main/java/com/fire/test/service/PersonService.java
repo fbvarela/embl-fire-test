@@ -1,7 +1,6 @@
 package com.fire.test.service;
 
 import com.fire.test.domain.dto.PersonDTO;
-import com.fire.test.domain.entity.Person;
 
 import java.util.List;
 import java.util.Optional;

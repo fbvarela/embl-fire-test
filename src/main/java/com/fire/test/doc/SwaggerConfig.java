@@ -27,8 +27,8 @@ public class SwaggerConfig {
 
     private ApiInfo getApiInfo() {
         return new ApiInfo(
-                "Embl Fire API",
-                "Embl Fire API Description",
+                "Embl Fire API Test",
+                "API description for Persons. Job application test",
                 "1.0",
                 "",
                 new Contact("fbvarela", "", "fbvarela@gmail.com"),

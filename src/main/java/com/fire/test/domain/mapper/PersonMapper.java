@@ -1,10 +1,8 @@
 package com.fire.test.domain.mapper;
 
-import com.fire.test.domain.entity.Person;
 import com.fire.test.domain.dto.PersonDTO;
+import com.fire.test.domain.entity.Person;
 import org.springframework.stereotype.Component;
-
-import java.util.Objects;
 
 @Component
 public class PersonMapper {

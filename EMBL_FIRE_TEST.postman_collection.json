@@ -1,0 +1,115 @@
+{
+	"info": {
+		"_postman_id": "902ce34e-eb63-4b22-ad11-22debd612243",
+		"name": "EMBL FIRE TEST",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Create Person",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"first_name\" : \"pepe\",\n    \"second_name\" : \"mai\" ,\n    \"age\": \"34\",\n    \"favourite_colour\": \"yellow\" \n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/emblfire/persons",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"emblfire",
+						"persons"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Uptate a person",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"first_name\" : \"fernando\",\n    \"second_name\" : \"varela\" ,\n    \"age\": \"32\",\n    \"favourite_colour\": \"yellow\" \n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/emblfire/persons/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"emblfire",
+						"persons",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all Persons",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/vnd.emblfire.app-v1+json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/emblfire/persons",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"emblfire",
+						"persons"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get a person",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/emblfire/persons/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"emblfire",
+						"persons",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
