@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:embl
+    driverClassName: org.h2.Driver
+    username: sa
+    password: emblfire
+    database-platform: org.hibernate.dialect.H2Dialect
+  h2:
+    console:
+      enabled: true
+auth0:
+  issuer: https://dev-7x-rm229.eu.auth0.com/
+  apiAudience: http://localhost:8080/emblfire/
+
+server:
+    servlet:
+      contextPath: /emblfire
+

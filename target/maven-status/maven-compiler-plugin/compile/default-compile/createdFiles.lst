@@ -1,0 +1,11 @@
+com/fire/test/service/PersonService.class
+com/fire/test/domain/entity/Person.class
+com/fire/test/controller/PersonRestController.class
+com/fire/test/repository/PersonRepository.class
+com/fire/test/ServletInitializer.class
+com/fire/test/service/PersonServiceImpl.class
+com/fire/test/domain/entity/ApiUser.class
+com/fire/test/domain/mapper/PersonMapper.class
+com/fire/test/doc/SwaggerConfig.class
+com/fire/test/domain/dto/PersonDTO.class
+com/fire/test/FireAppApplication.class
